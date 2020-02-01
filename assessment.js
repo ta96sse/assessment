@@ -15,7 +15,7 @@ function removeAllChildren(element) {
 }
 
 userNameInput.onkeydown = (event) => {
-    if (event.key === 'Enter') {
+    if (event.key === 'return') {
         // TODO ボタンのonclick() 処理を呼び出す
         assessmentButton.onclick();
     }
